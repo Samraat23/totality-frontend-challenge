@@ -1,0 +1,68 @@
+.proper{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+
+}
+.img_homelg{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.img_loc{
+    width: 30px;
+    height: 30px;
+}
+.loction_content{
+    display: flex;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: bold;
+}
+.house_address{
+    font-size: 15px;
+}
+.product_rev_start{
+    display: flex;
+    align-items: center;
+}
+.facility{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.add2cart{
+    border: 1px solid ;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255,1);
+    background-color:#0275e1 ;
+    border-radius: 7px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.add2cart:hover{
+    color: black;
+    border: 1px solid;
+}
+
+.agent_name{
+    font-size: 20px;
+}
+
+
+
+@media(max-width : 480px){
+    .proper{
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 20px;
+    }
+}
+

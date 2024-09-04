@@ -1,0 +1,188 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid none;
+    box-shadow: 0px 2px;
+    width: 100%;
+    padding: 0px 50px;
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+}
+.name{
+    display: flex;
+    font-size: 28px;
+    text-decoration: none;
+    color:black;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart{
+    width: 50px;
+    height: 50px;
+}
+.carticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.usericon{
+    width: 40px;
+    height: 40px;
+}
+.user_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.auth{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.nav_cart_count{
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop_up_model{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(255, 251, 251,1);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.loginform{
+    text-align: center;
+    padding: 50px;
+}
+.userlabel{
+    font-size: 25px;
+    
+}
+#username{
+    padding: 10px ;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+#Number{
+    padding: 10px ;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid; 
+    border-radius: 7px;
+}
+
+.btnlog{
+    color: rgba(255, 255, 255,1);
+    background-color:#0275e1 ;
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+.Login_signup {
+    display: flex;
+    align-items: center;
+}
+
+/* media query mobile */
+
+@media (max-width: 768px) {
+    .navbar_left,
+    .navbar_right {
+        align-items: center;
+        padding: 10px 0px;
+    }
+    .navbar{
+        padding: 0px 10px;
+    }
+    #username{
+        padding: 10px 5px;
+    }
+
+
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+    .logo{
+        width: 30px;
+        height: 30px;    
+    }
+
+    .auth {
+        font-size: 16px;
+    }
+
+    .usericon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cart {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav_cart_count {
+        font-size: 8px;
+        width: 14px;
+        height: 14px;
+    }
+    .pop_up_model{
+        width: 300px;
+    }
+    .loginform{
+       padding: 20px;
+    }
+    #Number{
+      padding: 10px 5px;
+    }
+}
+
+
+
+
+
+
+
+

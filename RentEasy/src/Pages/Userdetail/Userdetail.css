@@ -1,0 +1,41 @@
+.user_personal_detail{
+    border: 1px solid black;
+    padding: 2vh 10vh;
+    border-radius: 10px;
+    
+}
+.user_form{
+    display: flex;
+    justify-content: center;   
+}
+input{
+    padding: 5px 10px;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+label{
+    font-size: 20px;
+}
+.sunmitted{
+    color: rgba(255, 255, 255,1);
+    background-color:#0275e1 ;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 7px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+@media (max-width:480px){
+    .user_personal_detail{
+       
+        border: none;
+    }
+    input{
+        padding: 0px 10px;
+        width: 250px;
+    }
+}

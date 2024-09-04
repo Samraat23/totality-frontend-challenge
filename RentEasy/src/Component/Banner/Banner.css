@@ -1,0 +1,56 @@
+
+.imgbanner {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.top_banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.find {
+    color: #0275e1;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.sub-heading {
+    font-size: 18px;
+}
+
+/* Responsive styles */
+
+
+@media (max-width: 768px) {
+    .imgbanner {
+        width: 70%; /* Make image responsive to container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .imagepart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top_banner {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        justify-content: center; /* Center align items */
+        margin-top: 20px;
+        margin: auto; /* Adjust top margin */
+    }
+
+    .heading {
+        font-size: 25px; /* Reduce heading font size for very small screens */
+    }
+
+    .sub-heading {
+        font-size: 12px; /* Reduce sub-heading font size for very small screens */
+    }
+}

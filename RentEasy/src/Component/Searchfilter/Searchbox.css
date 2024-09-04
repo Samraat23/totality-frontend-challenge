@@ -1,0 +1,45 @@
+
+.searchbox{
+    display: flex;
+    width: 70%;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin: auto;
+
+}
+.find{
+    text-align: center;
+}
+.inputbox{
+    padding: 20px 5px;
+    width: 33.3%;
+    outline: none;
+    border: 0px 1px rgba(255,255,255,1);
+    font-size: 20px;
+}
+.btn{
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+
+}
+
+@media(max-width : 768px){
+    .searchbox{
+        flex-direction: column;
+        border: none;
+        gap: 2vh;
+    }
+    .inputbox{
+        width: 100%;
+        
+    }
+    .btn{
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        color: rgba(255, 255, 255,1);
+        background-color:#0275e1 ;
+    }
+}

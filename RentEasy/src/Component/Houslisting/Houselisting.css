@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+}

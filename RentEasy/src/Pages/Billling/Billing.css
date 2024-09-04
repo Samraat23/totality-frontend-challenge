@@ -1,0 +1,41 @@
+.billing{
+    border: 2px solid ;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(199, 186, 186);
+    padding-bottom: 20px;
+    border-radius: 10px;
+   
+
+}
+.checkout{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255,1);
+    background-color:#0275e1 ;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgb(148, 147, 147);
+
+}
+.bill{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+}
+.bill_amnt{
+   font-size: 28px;
+}
+.Bill_quanty{
+    font-size: 20px;
+   
+}
+
+@media (max-width : 480px){
+    .billing{
+        width: 75%;
+    } 
+}
